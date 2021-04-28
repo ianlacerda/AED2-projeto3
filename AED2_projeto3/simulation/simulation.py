@@ -1,11 +1,12 @@
 from AED2_projeto3.cache.cache import Cache
+from AED2_projeto3 import const
 
 def run_simulation():
     """Start a new Cache"""
     cache = Cache()
 
     """Read requisitions from data folder"""
-    data = open(f'/home/griquup/ufabc/projeto3/AED2_projeto3/AED2_projeto3/data/wikipedia.txt', 'r')
+    data = open(f'{const.HERE}/data/wikipedia.txt', 'r')
     data = data.readlines()
 
     """Insert requisitions into cache"""

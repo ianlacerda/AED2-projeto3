@@ -41,8 +41,8 @@ setup(
     keywords="Academic project",
     license="GNU GENERAL PUBLIC LICENSE",
     long_description=README,
-    #package_data={"": ["LICENSE.txt"], PACKAGE_NAME: ["*.ini", "images/*.jpg"]},
-    packages=find_packages(exclude=["tests", "tests.*", "tools", "tools.*", "data"]),
+    package_data={"": ["LICENSE.txt"], PACKAGE_NAME: ["data/*"]},
+    packages=find_packages(exclude=["tests", "tests.*", "tools", "tools.*"]),
     project_urls={
         "Change Log": "readthedocs will be added soon",
         "Documentation": "readthedocs will be added soon",

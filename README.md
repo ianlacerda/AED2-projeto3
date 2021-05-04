@@ -29,7 +29,7 @@ No final de toda a simulação, temos calculado a quantidade de bytes que foi ec
 
 <h1>Materiais e métodos</h1>
 
-<p>A versão do Python utilizada foi a 3.8.5 65-bit, foi criado um setup.py para o referenciamento das bibliotecas utilizadas no projeto. A partir desse módulo, é possível instalar o pacote e as dependências do projeto através do comando</p>
+<p>A versão do Python utilizada foi a 3.8.5 65-bit, foi criado um <code>setup.py</code> para o referenciamento das bibliotecas utilizadas no projeto. A partir desse módulo, é possível instalar o pacote e as dependências do projeto através do comando</p>
 
 <pre><code>pip3 install git+git://github.com/leosugano/AED2-projeto3</code></pre>
 

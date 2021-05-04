@@ -46,6 +46,8 @@ No final de toda a simulação, temos calculado a quantidade de bytes que foi ec
 <p>Já a nível de código e estruturas de dados para a simulação, foram utilizados apenas pacotes built-in do python, já que a estrutura de dados utilizada é o <b>dictionary</b> do python, que por baixo dos panos se trata de um hashmap implementado em C. O mesmo vale para os outros métodos utilizados, como o do pacote sys, <b>sys.getsizeof()</b>, utilizado para medir o tamanho da estrutura de dados, e também o módulo path, utilizado para localização do arquivo de dados utilizado na simulação dentro do sistema operacional.</p>
 
 <p>Fora as funções built-in, foi criado uma classe que comporta o cache, chamada Justamente Cache, conforme imagem abaixo:</p>
+<img src="1.PNG">
+
 <p></p>
 <p></p>
 <p></p>

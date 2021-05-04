@@ -13,8 +13,8 @@
 
 <h3>Nome do professor: Carlos da Silva dos Santos<h3>
 <h3>Disciplina: Análise e Estrutura de Dados II</h3>
-<h4>Quadrimestre: Q1.2021</h4>
-<h4>Turno: Noturno</h4>
+<p>Quadrimestre: Q1.2021</p>
+<p>Turno: Noturno</p>
 
 <h4 style="display:flex; justify-content: center;">Santo André<h4>
 <h4 style="display:flex; justify-content: center;">maio/2021<h4>

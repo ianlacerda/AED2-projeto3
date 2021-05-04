@@ -69,12 +69,15 @@ No final de toda a simulação, temos calculado a quantidade de bytes que foi ec
 
 <h2>Resultados</h2>
 
-<p>O tamanho inicial do dicionário que representa o cache tinha 64 bytes, o tamanho final do cache foi de 7420112651 bytes (simulados) e o total economizado foi de 332818743628 bytes (simulados). A estrutura de dados, após o processamento de todas as requisições (linhas do .txt disponibilizado) foi aproximadamente 5,2 MB, como pode ser visto na figura abaixo:</p>
+<p>O tamanho inicial do dicionário que representa o cache tinha <b>64 bytes</b>, o tamanho final do cache foi de <b>7420112651 bytes</b> (simulados) e o total economizado foi de <b>332818743628 bytes</b> (simulados). A estrutura de dados, após o processamento de todas as requisições (linhas do .txt disponibilizado) foi aproximadamente 5,2 MB, como pode ser visto na figura abaixo:</p>
 <img src="4.PNG">
 
-<p></p>
-<p></p>
-<p></p>
+<p>Para a confecção dos resultados, o sistema operacional utilizado foi o Ubuntu 20.04 LTS e o Python versão 3.8.5 que vem associada a essa versão do sistema operacional durante as últimas semanas do mês de abril de 2021. O teste do relatório não foi possível ser executado em versões inferiores do Python, como a versão 3.7.3 no Sistema Operacional Debian 9.</p>
+
+<p>Utilizando o comando <code>time python3 main.py</code> no shell do Ubuntu 20.04 LTS para calcular o tempo de execução do script em um computador com 8 núcleos a 4.0 GHz, obtivemos um tempo de uso de processamento da CPU de 1.063s. Já ao utilizarmos o comando  <code>/usr/bin/time --verbose  python3 main.py</code> para obtermos mais informações sobre o programa, vimos que o programa utilizou um pico de 88752000 bytes para executar o script Python. Como pode ser visto na imagem abaixo:</p>
+<img src="5.PNG">
+<p>O programa utiliza, assim, mais acesso ao disco rígido - SSD ou HD - do que a memória em si para fazer os cálculos do cache. Vale ressaltar também que o tempo de execução pode variar de acordo com o sistema utilizado para rodar o programa.</p>
+
 <p></p>
 <p></p>
   

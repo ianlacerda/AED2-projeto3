@@ -19,7 +19,7 @@
 <h4 style="display:flex; justify-content: center;">Santo André<h4>
 <h4 style="display:flex; justify-content: center;">maio/2021<h4>
   
-<h2>Introdução</h2>
+<h1>Introdução</h1>
  
 <p>O intuito deste trabalho é simular o comportamento de um servidor de proxy para serviço de cache de internet. Para isso utilizou-se a linguagem de programação Python para o desenvolvimento do código-fonte e uma amostra de requisições de dados para a Wikipedia em português (pt.wikipedia.org) fornecida previamente.
 A entrada possui três campos: instante (em segundos) que a requisição é feita, nome do recurso solicitado (página da web ou recurso do domínio) e tamanho do recurso (quantidade em bytes).  Com esses campos é possível preencher o cache (utilizando um dicionário), o qual é inicialmente nulo, a partir de então pode-se verificar, a cada nova requisição, se já há recursos na coleção local. Em caso positivo, o campo de instante é atualizado e, através do campo de tamanho, consegue-se determinar o quanto de bytes foi economizado. O sistema é incremental, ou seja, caso não haja um registro anterior, uma nova linha é inserida no cache.
@@ -27,7 +27,7 @@ No final de toda a simulação, temos calculado a quantidade de bytes que foi ec
 </p>
 
 
-<h2>Materiais e métodos</h2>
+<h1>Materiais e métodos</h1>
 
 <p>A versão do Python utilizada foi a 3.8.5 65-bit, foi criado um setup.py para o referenciamento das bibliotecas utilizadas no projeto. A partir desse módulo, é possível instalar o pacote e as dependências do projeto através do comando</p>
 
@@ -67,7 +67,7 @@ No final de toda a simulação, temos calculado a quantidade de bytes que foi ec
 
 <p>Quanto ao tamanho final que a estrutura atingiu, foram <b>5242968 bytes</b>, aproximadamente 5,2 MB. Como não foi possível realizar a simulação com outra linguagem/Estrutura de dados, um ponto de evolução para o projeto seria justamente realizar a comparação de relatórios com outros grupos da turma.</p>
 
-<h2>Resultados</h2>
+<h1>Resultados</h1>
 
 <p>O tamanho inicial do dicionário que representa o cache tinha <b>64 bytes</b>, o tamanho final do cache foi de <b>7420112651 bytes</b> (simulados) e o total economizado foi de <b>332818743628 bytes</b> (simulados). A estrutura de dados, após o processamento de todas as requisições (linhas do .txt disponibilizado) foi aproximadamente 5,2 MB, como pode ser visto na figura abaixo:</p>
 <img src="4.PNG">

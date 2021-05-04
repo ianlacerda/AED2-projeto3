@@ -38,14 +38,22 @@ No final de toda a simulação, temos calculado a quantidade de bytes que foi ec
 <pre><code>pip install git+git://github.com/leosugano/AED2-projeto3</code></pre>
 
 
-<p></p>
-<p></p>
-<p></p>
-<p></p>
+<p>Feito isto, basta fazer download do projeto também via github, e executá-lo com:</p>
+<pre><code>python3 main.py</code></pre>
+
+<p>Como interface de desenvolvimento, foi escolhido o Visual Studio Code, por sua gratuidade prover fácil acesso, e sua modularidade permitir a instalação de vários componentes que servem de suporte para o desenvolvimento, como o módulo python da microsoft, que provê Linting, Debugging (multi-threaded, remote), Intellisense, Jupyter Notebooks, code formatting, refactoring, unit tests, e mais.</p>
+
+<p>Já a nível de código e estruturas de dados para a simulação, foram utilizados apenas pacotes built-in do python, já que a estrutura de dados utilizada é o <b>dictionary</b> do python, que por baixo dos panos se trata de um hashmap implementado em C. O mesmo vale para os outros métodos utilizados, como o do pacote sys, <b>sys.getsizeof()</b>, utilizado para medir o tamanho da estrutura de dados, e também o módulo path, utilizado para localização do arquivo de dados utilizado na simulação dentro do sistema operacional.</p>
+
+<p>Fora as funções built-in, foi criado uma classe que comporta o cache, chamada Justamente Cache, conforme imagem abaixo:</p>
 <p></p>
 <p></p>
 <p></p>
 <p></p>
 
-
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
   

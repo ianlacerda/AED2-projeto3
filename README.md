@@ -48,9 +48,9 @@ No final de toda a simulação, temos calculado a quantidade de bytes que foi ec
 <p>Fora as funções built-in, foi criado uma classe que comporta o cache, chamada Justamente Cache, conforme imagem abaixo:</p>
 <img src="1.PNG">
 
-<p>A ideia desta classe é prover os atributos solicitados para a simulação, que é o cache em si, no caso o <b>dict</b> referenciado por <b>_cache</b>.</p>
+<p>A ideia desta classe é prover os atributos solicitados para a simulação, que é o cache em si, no caso o <code>dict</code> referenciado por <code>_cache</code>.</p>
 
-<p>A quantidade de bytes (simulados) carregados no cache e a quantidade de bytes (simulados) economizadas com o uso desse cache. Esses valores são referenciados, respectivamente, por <b>_loaded_bytes</b> e <b>_saved_bytes</b>.</p>
+<p>A quantidade de bytes (simulados) carregados no cache e a quantidade de bytes (simulados) economizadas com o uso desse cache. Esses valores são referenciados, respectivamente, por <code>_loaded_bytes</code> e <code>_saved_bytes</code>.</p>
 
 <p>A classe também conta com métodos para preenchimento desses valores, conforme documentação no código.</p>
 
@@ -59,7 +59,7 @@ No final de toda a simulação, temos calculado a quantidade de bytes que foi ec
 
 <p>Com um pouco mais de profundidade, basicamente é instanciada um objeto Cache, e a partir da fonte de dados disponibilizada na especificação do projeto, os valores de requisição são processados, e ao final do processamento, são exibidos os valores questionados pelo professor ao definir o escopo do trabalho.</p>
 
-<p>Fora estes módulos, o projeto completo ainda conta com outros três módulos, <b>setup.py</b>, que como dito anteriormente é responsável pela organização dos módulos formando o escopo do projeto. E também o <b>const.py</b>, que salva alguns dados de path para utilização dos dados e também instalação do pacote. Por fim, o <b>main.py</b>, apenas utilizado como entry point, chamando o método desenvolvido em simulation.py.</p>
+<p>Fora estes módulos, o projeto completo ainda conta com outros três módulos, <b>setup.py</b>, que como dito anteriormente é responsável pela organização dos módulos formando o escopo do projeto. E também o <code>const.py</code>, que salva alguns dados de path para utilização dos dados e também instalação do pacote. Por fim, o <code>main.py</code>, apenas utilizado como entry point, chamando o método desenvolvido em <code>simulation.py</code>.</p>
 
 
 <p>Por fim, descendo ao nível de justificativas e complexidade da estrutura de dados, o ponto mais importante para a escolha do python dict é simplicidade, já que é muito fácil utilizá-lo, e também sua notoriedade, já que é muito empregado em projetos de data science. A sua complexidade que também é um ponto de discussão na hora de escolher uma estrutura de dados, também se mostra excelente ao observarmos o caso geral de uso disposto na documentação do python, encontrada em <a href="https://wiki.python.org/moin/TimeComplexity">https://wiki.python.org/moin/TimeComplexity</a>, já que apenas a cópia e iteração do dict têm notação O(n), com todas as outras operações sendo constantes (O(1)).</p>

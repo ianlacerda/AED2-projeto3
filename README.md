@@ -4,16 +4,16 @@ Projeto 3 em Python para a matéria AED2
 
 <h2>Fundação Universidade Federal do ABC</h2>
 
-<h3>Nome: Guilherme Rodrigues				RA: 11201811447</h3>
-<h3>Nome: Ian Lacerda da Silva				RA: 11115514</h3>
-<h3>Nome: Leonardo Sugano Tomioka			RA: 21043514</h3>
-<h3>Nome: Renan Ferreira Lima				RA: 11201722759</h3>
+<h4>Nome: Guilherme Rodrigues				RA: 11201811447</h4>
+<h4>Nome: Ian Lacerda da Silva				RA: 11115514</h4>
+<h4>Nome: Leonardo Sugano Tomioka			RA: 21043514</h4>
+<h4>Nome: Renan Ferreira Lima				RA: 11201722759</h4>
 
 
-<h3>Nome do professor: Carlos da Silva dos Santos</h3>
+<h3>Nome do professor: Carlos da Silva dos Santos<h3>
 <h3>Disciplina: Análise e Estrutura de Dados II</h3>
-<h3>Quadrimestre: Q1.2021</h3>
-<h3>Turno: Noturno</h3>
+<h4>Quadrimestre: Q1.2021</h4>
+<h4>Turno: Noturno</h4>
 
 <h4 style="display:flex; justify-content: center;">Santo André<h4>
 <h4 style="display:flex; justify-content: center;">maio/2021<h4>
